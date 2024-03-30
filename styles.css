@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://img.freepik.com/free-photo/sunset-silhouettes-trees-mountains-generative-ai_169016-29371.jpg?w=1380&t=st=1711778853~exp=1711779453~hmac=8788a20b47168dbef118e039359300d81fec4de3a32265d8b159f3aae705b1af");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+h1 span {
+    color: rgb(255, 0, 0);
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.rock {
+    background-color: rgb(24, 202, 187);
+}
+
+.paper {
+    background-color: rgb(167, 161, 161);
+}
+
+.scissor {
+    background-color: rgb(221, 28, 28);
+}
+
+.choices {
+    margin-top: 30px;
+}
+
+.choices span {
+    margin: 0px 25px;
+}
+
+p {
+    font-size: 25px;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+.score span {
+    color: #00a500;
+}
+
+.machine-score span {
+    color: #cf3030;
+}

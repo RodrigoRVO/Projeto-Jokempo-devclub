@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Joh-Ken-Pow!</title>
+</head>
+
+<body>
+    <section>
+        <h1>Joh-Ken-<span>Pow</span>!</h1>
+
+        <div class="buttons">
+            <button class="rock" onclick="choicePlayer('rock')">&#x270A;</button>
+            <button class="paper" onclick="choicePlayer('paper')">&#x270B;</button>
+            <button class="scissor" onclick="choicePlayer('scissor')">&#9996;</button>
+        </div>
+
+        <p class="choices"> <span id="human-choice">-</span> X <span id="machine-choice">-</span> </p>
+
+        <p class="result"></p>
+
+        <p class="score">Your Score: <span id="human-score">0</span></p>
+        <p class="machine-score">Machine Score: <span id="machine-score">0</span></p>
+       
+
+    </section>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
