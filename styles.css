@@ -80,3 +80,42 @@ p {
 .machine-score span {
     color: #cf3030;
 }
+
+@media screen and (max-width: 800px) {
+    section {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    button {
+        width: 70px;
+        height: auto;
+        font-size: 40px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    p {
+        margin: 10px;
+    }
+
+    .choices span {
+        font-size: 15px;
+    }
+
+    .result {
+        font-size: 20px;
+    }
+
+    .score {
+        font-size: 22px;
+    }
+
+    .machine-score {
+        font-size: 22px;
+    }
+}
