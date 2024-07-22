@@ -5,7 +5,7 @@ Nesse jogo usamos tecnologias que nos permitiram dar vida a um jogo simples mas 
 Também foi adicionado a responsividade para que pessoas através de seus dispositivos ceulares também possam se divertir jogando de qualquer lugar!
 </p>
 <br>
-<h2 align = center> Tecnologias utilizadas </h2>
+<h2 align = center> Tecnologias utilizadas! </h2>
 <br>
 - HTML
 <br>
